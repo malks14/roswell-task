@@ -1,0 +1,42 @@
+.tableTimerCtn {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    width: 976px;
+    height: 220px;
+}
+
+.tableNumber {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0 0 2rem;
+    width: 400px;
+}
+
+.tableNumber p {
+    font-weight: 700;
+}
+
+.tableNumber span {
+    font-weight: 400;
+}
+
+.formInputCtn {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1023px) {
+    .tableTimerCtn {
+        width: 346px;
+        height: 214px;
+    }
+    .tableNumber{
+        width: 100%;
+        padding: 0px;
+    }
+}
